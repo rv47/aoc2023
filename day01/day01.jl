@@ -1,4 +1,3 @@
-# Read the input from a file:
 function readinputfile(path::String)
 	s = open(path, "r") do file
 		read(file, String)
